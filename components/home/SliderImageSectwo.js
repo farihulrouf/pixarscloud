@@ -19,6 +19,11 @@ export default class SliderImageSectwo extends Component {
         <Slider {...settings}>
           <div className="relative">
             <div className="md:max-w-[450px] w-full">
+              <img className="p-2 w-full rounded-t-full" src="/img/dbsix3.jpg" />
+            </div>
+          </div>
+          <div className="relative">
+            <div className="md:max-w-[450px] w-full">
               <img className="p-2 w-full rounded-t-full" src="/img/dbsix.jpg" />
             </div>
           </div>
@@ -26,19 +31,18 @@ export default class SliderImageSectwo extends Component {
             <div className="md:max-w-[450px] w-full">
               <img className="p-2 w-full rounded-t-full" src="/img/dbsix2.jpg" />
             </div>
+
+            <img src="/img/line2.svg" className="md:max-w-[455px] w-full absolute -top-[1px]" />
           </div>
-          <div className="relative">
-            <div className="md:max-w-[450px] w-full">
-              <img className="p-2 w-full rounded-t-full" src="/img/dbsix3.jpg" />
-            </div>
-          </div>
+         
+          {/*
           <div className="relative">
             <div className="md:max-w-[450px] w-full">
               <img className="p-2 w-full rounded-t-full" src="/img/x_banner.png" />
             </div>
             <img src="/img/line2.svg" className="md:max-w-[455px] w-full absolute -top-[1px]" />
           </div>
-
+          */}
         </Slider>
       </React.Fragment>
     );
