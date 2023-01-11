@@ -10,11 +10,11 @@ const Footer = () => {
                     <div className="md:col-span-6 col-span-9">
                         <div className="flex space-x-1">
                              <img className="w-12 h-12" src="/img/logo.svg" alt="logo" />
-                             <p className="text-white text-lg">CosmoHub</p>
+                             <p className="text-white text-lg">Pixarscloud</p>
                         </div>
                         <div className="py-6 max-w-[290px]">
                             <p className="text-white">
-                            Earth is the cradle of humanity, but one cannot live in a cradle forever.
+                            lorem ipsum dolor sit amet
                             </p>
                         </div>
 

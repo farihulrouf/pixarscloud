@@ -581,14 +581,15 @@ const listMenu = [
         link: "/price"
     },
     {
+
         id: 3,
-        text: "Events",
-        link: "/event"
+        text: "Faq",
+        link: "/faq"
     },
     {
         id: 4,
-        text: "Jobs",
-        link: "/job"
+        text: "Events",
+        link: "/event"
     }
 ]
 

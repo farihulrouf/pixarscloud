@@ -21,9 +21,11 @@ export default function Home() {
         <SectionBanner />
         <SectionTwo />
         <SectionThree />
+        {/*
         <SectionFour />
         <SectionFive />
         <SectionSix />
+  */}
         <SectionSeven />
       </main>
 

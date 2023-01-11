@@ -8,14 +8,11 @@ const SectionSeven = () => {
                  <div className="grid grid-cols-12 gap-x-6 gap-y-4 p-4">
                     <div className="md:col-span-6 col-span-12 z-30">
                          <h5 className="text-teal-300 text-xl py-2">BECOME A MEMBER</h5>
-                         <h2 className="text-white text-4xl md:text-5xl py-2 font-semibold">Ready to try different work environment now?</h2> 
-                         <p className="text-white max-w-lg py-8 text-base">With its unique concept, 
-                         Cosmohub wants to promote productivity, entrepreneurship and business culture by creating a new kind of space, 
-                         where people can work, meet, learn or just hang out. So,  
-                         whether you are just starting out or looking an inspiring place to be - Cosmohub has got you covered.</p>
+                         <h2 className="text-white text-4xl md:text-5xl py-2 font-semibold">Ready to Join With us</h2> 
+                         <p className="text-white max-w-lg py-8 text-base">Instead of paying the full Netflix Premium of US$109 every year (US$8.90 / month), you can enjoy a private Netflix Profile for less than half the price by joining an available group.</p>
                          <div className="py-4 space-x-2">
                             <Button>Sign Up Now</Button>
-                            <button className="px-6 py-3 2xl:py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
+                            <button className="px-6 py-3 2xl:py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Join Discord</button>
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">
