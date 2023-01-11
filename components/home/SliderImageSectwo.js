@@ -25,9 +25,8 @@ export default class SliderImageSectwo extends Component {
             </div>
             <div className="relative">
                <div className="md:max-w-[450px] w-full">
-                   <img className="p-2 w-full rounded-t-full" src="/img/x_banner.png" />
+                   <img className="p-2 w-full rounded-t-full" src="/img/dbsix.jpg" />
                </div>
-               <img src="/img/line2.svg" className="md:max-w-[455px] w-full absolute -top-[1px]" />
             </div>
           
           
