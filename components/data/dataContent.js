@@ -1,20 +1,26 @@
 const contentSThree = [
     {
         id: 1,
-        title: "High quality co-living spaces",
-        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        title: "Massive Discount",
+        desc: "Why pay the full price when you can enjoy over 50% cost savings!.",
         icon: "/img/content/icon_content1.svg"
     },
     {
         id: 2,
-        title: "Equipped for productivity",
-        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        title: "Fuss-Free Payment",
+        desc: "Avoid both the fuss & risk of constantly chasing payments from friends, we got you covered..",
         icon: "/img/content/icon_content2.svg"
     },
     {
         id: 3,
-        title: "Simple and inclusive",
-        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        title: "Zero Disruption",
+        desc: "We'll handle any change in group members, with no extra fees.",
+        icon: "/img/content/icon_content3.svg"
+    },
+    {
+        id: 4,
+        title: "100% Privacy",
+        desc: "Only you have access to your Profile. Others cannot view your music or browsing history.",
         icon: "/img/content/icon_content3.svg"
     }
 ]
@@ -22,19 +28,19 @@ const contentSThree = [
 const contentSthreeImage = [
    {
     id: 1,
-    img: "/img/content/Rectangle17.png"
+    img: "/img/content/spotify.png"
    },
    {
     id: 2,
-    img: "/img/content/Rectangle18.png"
+    img: "/img/content/netflix.png"
    },
    {
     id: 3,
-    img: "/img/content/Rectangle19.png"
+    img: "/img/content/castle.png"
    },
    {
     id: 4,
-    img: "/img/content/Rectangle20.png"
+    img: "/img/content/itunes.png"
    },
    
    
@@ -43,26 +49,26 @@ const contentSthreeImage = [
 const contentFiveEvents = [
     {
         id: 1,
-        title: "Community Events",
-        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        title: "SUBMIT REQUEST",
+        desc: "Why pay the full price when you can enjoy over 50% cost savings! Check exactly how much discounts you can enjoy",
         icon: "/img/content/icon_content4.svg"
     },
     {
         id: 2,
-        title: "Exercise Facilities",
-        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        title: "GET MATCHED",
+        desc: "Avoid both the fuss & risk of constantly chasing payments from friends, we got you covered. Just subscribe and enjoy!",
         icon: "/img/content/icon_content5.svg"
     },
     {
         id: 3,
-        title: "High-Speed Wireless",
-        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        title: "MAKE PAYMENT",
+        desc: "We'll handle any change in group members, with no extra fees. Also, we manage the host account to intervene if there's any misuse.You'll be in great hands!.",
         icon: "/img/content/icon_content6.svg"
     },
     {
         id: 4,
-        title: "Comfort Lounges",
-        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        title: "RECEIVE LOGIN",
+        desc: "Only you have access to your Profile. Others cannot view your music or browsing history. You can lock your Netflix or Disney profiles with a PIN..",
         icon: "/img/content/icon_content7.svg"
     }
 ]

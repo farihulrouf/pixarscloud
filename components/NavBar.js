@@ -24,7 +24,7 @@ const NavBar = () => {
     })
 
     return (
-      <nav className={`fixed w-full z-30 ${navbar ? "bg-gradient-to-r from-blue-500 py-2" : "bg-transparent py-4"} `}>
+      <nav className={`fixed w-full font-play z-30 ${navbar ? "bg-gradient-to-r from-blue-500 py-2" : "bg-transparent py-4"} `}>
         <div className="max-w-screen-xl mx-auto pl-4 pr-4">
           <div className="grid grid-cols-12">
             <div className="col-span-4">
@@ -34,7 +34,7 @@ const NavBar = () => {
                       <img className="w-12 h-auto"src="/img/logo.svg" alt="logo" />
                     </Link>
                     </a>
-                    <a className="text-white"><Link href="/">CosmoHub</Link></a>
+                    <a className="text-white"><Link href="/">Pixarscloud</Link></a>
               
                 </div>
             </div>

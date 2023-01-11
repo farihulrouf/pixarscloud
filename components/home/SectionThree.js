@@ -3,15 +3,15 @@ import ImageCollect from './ImageCollect'
 import Button from '../Button'
 const SectionThree = () => {
     return (
-        <div className="font-palo">
+        <div className="font-play">
              <div className="max-w-screen-xl mx-auto p-4">
                 <div className="grid grid-cols-12">
                     <div className="md:col-span-6 col-span-12">
                         <div className="max-w-3xl">
                                 <h5 className="text-teal-300 text-xl py-2">VISIONS</h5>
-                                <h2 className="text-white lg:text-5xl text-4xl max-w-[546px] py-2 font-semibold">Our vision in CosmoHub to dream different</h2>
-                                <p className="text-white max-w-[616px] py-4 text-lg">
-                                Here, you can work, exchange ideas, share experiences and create a strong network of support in order to improve your business, with other likeminded people who share your passion for entrepreneurship and startups.  
+                                <h2 className="text-white lg:text-5xl text-4xl max-w-[546px] py-2 font-semibold">Why Come Onboard</h2>
+                                <p className="text-white max-w-[616px] py-4 text-base">
+                                Get a Netflix, Disney Plus, Spotify or YouTube Premium Account in USA, Europe or Singapore. Save yourself tonnes of money every month, by subscribing as a group compared to individual premium plans. Enjoy the full benefits of your favourite premium subscriptions at a fraction of the cost, while having full privacy to your individual account/profile
                                 </p>
                         </div>
                         <div className="max-w-3xl py-4">
