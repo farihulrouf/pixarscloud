@@ -1,26 +1,26 @@
 const contentSThree = [
     {
         id: 1,
-        title: "Massive Discount",
-        desc: "Why pay the full price when you can enjoy over 50% cost savings!.",
+        title: "Premium Combos",
+        desc: "We Provide Best Quality Combos With Various Categories And Good Quantity",
         icon: "/img/content/icon_content1.svg"
     },
     {
         id: 2,
-        title: "Fuss-Free Payment",
-        desc: "Avoid both the fuss & risk of constantly chasing payments from friends, we got you covered..",
+        title: "Rotating Proxies",
+        desc: "Our Cloud Also Gives You Access To Rotating Proxies In The Subscription",
         icon: "/img/content/icon_content2.svg"
     },
     {
         id: 3,
-        title: "Zero Disruption",
-        desc: "We'll handle any change in group members, with no extra fees.",
+        title: "Premium AIO",
+        desc: "A Premium AIO Built For Cloud Members Is Also Included In The Cloud Subscription.",
         icon: "/img/content/icon_content3.svg"
     },
     {
         id: 4,
-        title: "100% Privacy",
-        desc: "Only you have access to your Profile. Others cannot view your music or browsing history.",
+        title: "Private Configs",
+        desc: "In Cloud Subscription You Also Get To Access More Then 100+ Premium Configs.",
         icon: "/img/content/icon_content3.svg"
     }
 ]
@@ -588,8 +588,8 @@ const listMenu = [
     },
     {
         id: 4,
-        text: "Events",
-        link: "/event"
+        text: "Vouches",
+        link: "/vouches"
     }
 ]
 

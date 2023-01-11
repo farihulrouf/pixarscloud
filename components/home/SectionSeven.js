@@ -9,7 +9,7 @@ const SectionSeven = () => {
                     <div className="md:col-span-6 col-span-12 z-30">
                          <h5 className="text-teal-300 text-xl py-2">BECOME A MEMBER</h5>
                          <h2 className="text-white text-4xl md:text-5xl py-2 font-semibold">Ready to Join With us</h2> 
-                         <p className="text-white max-w-lg py-8 text-base">Instead of paying the full Netflix Premium of US$109 every year (US$8.90 / month), you can enjoy a private Netflix Profile for less than half the price by joining an available group.</p>
+                         <p className="text-white max-w-lg py-8 text-base">Simply Click The Button Below & Start Your Beautiful Journey Starting At Just 19.99$/Week Included With Combos , Proxies , AIO , Configs And Much More..</p>
                          <div className="py-4 space-x-2">
                             <Button>Sign Up Now</Button>
                             <button className="px-6 py-3 2xl:py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Join Discord</button>

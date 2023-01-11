@@ -9,9 +9,9 @@ const SectionThree = () => {
                     <div className="md:col-span-6 col-span-12">
                         <div className="max-w-3xl">
                                 <h5 className="text-teal-300 text-xl py-2">VISIONS</h5>
-                                <h2 className="text-white lg:text-5xl text-4xl max-w-[546px] py-2 font-semibold">Why Come Onboard</h2>
+                                <h2 className="text-white lg:text-5xl text-4xl max-w-[546px] py-2 font-semibold">Why Choose us</h2>
                                 <p className="text-white max-w-[616px] py-4 text-base">
-                                Get a Netflix, Disney Plus, Spotify or YouTube Premium Account in USA, Europe or Singapore. Save yourself tonnes of money every month, by subscribing as a group compared to individual premium plans. Enjoy the full benefits of your favourite premium subscriptions at a fraction of the cost, while having full privacy to your individual account/profile
+                                We Are A Leading Cloud Providing All Services At One Place With Premium Quality & Quantity At The Same Place With Frequent Restocks And 24/7 Customer Support. Start Using Our Service Today Starting At Just 19.99$/Week
                                 </p>
                         </div>
                         <div className="max-w-3xl py-4">
