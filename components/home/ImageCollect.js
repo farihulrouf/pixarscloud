@@ -6,7 +6,7 @@ const ImageCollect = () => {
         
         <div className="w-full">
     
-                <div className="grid grid-rows-2 grid-flow-col gap-4">
+                <div className="grid grid-rows-2 grid-flow-col gap-4 lg:pl-8">
                     {contentSthreeImage.map((item, index) =>
                         <div key={index} className="max-w-[200px]">
                             <img className="w-full" src={item.img} alt="pic" />
