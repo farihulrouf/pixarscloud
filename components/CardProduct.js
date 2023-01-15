@@ -19,7 +19,7 @@ const CardProduct = (props) => {
                     ))}
                 </div>
                 <div className="flex justify-center">
-                    <Button>Choose Plan</Button>
+                    <Button>Buy This Plan</Button>
                 </div>
             </div>
            
