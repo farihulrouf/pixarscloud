@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { BiShow } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
+import logoimg from "../public/img/Logo.svg";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
@@ -37,6 +38,7 @@ const Login = () => {
                 <div className="flex flex-col lg:w-1/3 w-full py-10 items-center bg-white">
                     <div className="w-10/12 font-play p-4">
                         
+                    <Image src={logoimg} className="mx-auto" alt="logo" />
                         <form className="bg-teal-white" onSubmit={handleSubmit(onSubmit)}>
                             <h3 className="text-2xl font-bold text-black text-center mb-7 py-6">
                                 Hi, Welcome Back
