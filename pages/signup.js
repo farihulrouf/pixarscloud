@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import logoimg from "../public/img/Logo.svg";
+import logoimg from "../public/img/logo.svg";
 import { BiShow } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
 import { useForm } from "react-hook-form";

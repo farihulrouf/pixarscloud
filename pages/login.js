@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { BiShow } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
-import logoimg from "../public/img/Logo.svg";
+import logoimg from "../public/img/logo.svg";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
