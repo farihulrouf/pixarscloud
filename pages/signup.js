@@ -143,7 +143,7 @@ const Signup = () => {
                 </div>
                 <div className="relative overflow-hidden lg:flex lg:w-2/3 relative">
                     
-                         <Image src='/img/bg_pages.svg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
+                <Image src='/img/bg_1.jpg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
                 </div>
             </div>
         </>
