@@ -59,7 +59,7 @@ const Login = () => {
                                     type="email"
                                     placeholder="Enter Your email"
                                     {...register('email')}
-                                    className={`shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300 ${errors.email ? 'is-invalid' : ''}`}
+                                    className={`border appearance-none rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300 ${errors.email ? 'is-invalid' : ''}`}
                                 />
 
                                 <p className="text-red-500 text-[12px]">{errors.email?.message}</p>
@@ -78,7 +78,7 @@ const Login = () => {
                                         type={passwordShown ? "text" : "password"}
                                         placeholder="Enter your password"
                                         {...register('password')}
-                                        className={`shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300 ${errors.password ? 'is-invalid' : ''}`}
+                                        className={`appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300 ${errors.password ? 'is-invalid' : ''}`}
                                     />
 
                                     <div className="absolute right-1 top-3 flex items-center">
@@ -96,7 +96,7 @@ const Login = () => {
                             </div>
                             <div className="mt-6">
                                 <button
-                                    className="block w-full bg-blue-500 text-lg font-semibold mt-4 py-3 text-white mb-2"
+                                    className="block w-full bg-[#FFBE0B] text-lg font-semibold mt-4 py-3 text-black mb-2"
                                 >
                                     Sign in
                                 </button>

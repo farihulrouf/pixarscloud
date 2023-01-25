@@ -34,7 +34,7 @@ const Signup = () => {
                                     </label>
                                     <div className="relative">
                                         <input
-                                            className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
+                                            className="appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
                                             id="userName"
                                             type="text"
                                             placeholder="Username"
@@ -52,7 +52,7 @@ const Signup = () => {
                                     Email
                                 </label>
                                 <input
-                                    className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
+                                    className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
                                     id="email"
                                     type="email"
                                     placeholder="Enter Your email"
@@ -75,7 +75,7 @@ const Signup = () => {
                                     </label>
                                     <div className="relative">
                                         <input
-                                            className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
+                                            className="appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
                                             id="password"
                                             type={passwordShown ? "text" : "password"}
                                             placeholder="Enter your password"
@@ -100,7 +100,7 @@ const Signup = () => {
                                     </label>
                                     <div className="relative">
                                         <input
-                                            className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
+                                            className="appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
                                             id="cpassword"
                                             type={passwordShown ? "text" : "password"}
                                             placeholder="Enter your password"
@@ -120,7 +120,7 @@ const Signup = () => {
                             </div>
                             <div className="mt-6">
                                 <button
-                                    className="block w-full bg-[#007AFF] mt-4 py-3 text-white mb-2"
+                                    className="block w-full bg-[#FFBE0B] mt-4 py-3 text-black mb-2"
                                 >
                                     Sign Up
                                 </button>
