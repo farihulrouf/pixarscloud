@@ -35,18 +35,18 @@ const Login = () => {
     return (
         <>
             <div className="h-screen md:flex">
-                <div className="flex flex-col lg:w-1/3 w-full py-10 items-center bg-gradient-to-r from-gray-900 to-black ">
+                <div className="flex flex-col lg:w-1/3 w-full py-10 items-center bg-white">
                     <div className="w-10/12 font-play p-4">
                         
                     <Image src={logoimg} className="mx-auto" alt="logo" />
                         <form className="bg-teal-white" onSubmit={handleSubmit(onSubmit)}>
-                            <h3 className="text-2xl font-bold text-white text-center mb-7 py-6">
+                            <h3 className="text-2xl font-bold text-black text-center mb-7 py-6">
                                 Hi, Welcome Back
                             </h3>
 
                             <div className="py-2">
                                 <label
-                                    className="block text-white text-lg mb-2 font-medium"
+                                    className="block text-gray-400 text-lg mb-2 font-medium"
                                     htmlFor="username"
                                 >
                                     Email
@@ -66,7 +66,7 @@ const Login = () => {
                             </div>
                             <div className="py-2">
                                 <label
-                                    className="block text-white text-lg mb-2 font-medium"
+                                    className="block text-gray-400 text-lg mb-2 font-medium"
                                     htmlFor="password"
                                 >
                                     Password
@@ -109,7 +109,7 @@ const Login = () => {
                                 </button>
                             </div>
                             <div className="flex justify-center py-2">
-                                <p className="text-sm text-white text-base cursor-pointer">
+                                <p className="text-sm text-black text-base cursor-pointer">
                                     Dont have an account yet ?{" "}
                                     <Link href="/signup"><span className="text-[#FFBE0B]">Sign Up</span></Link>
                                 </p>
@@ -119,7 +119,7 @@ const Login = () => {
                 </div>
                 <div className="relative overflow-hidden lg:flex lg:w-2/3 realtive bg-black ">
                    
-                <Image src='/img/bg_1.jpg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
+                <Image src='/img/bg_2.jpg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
        
                 </div>
             </div>
