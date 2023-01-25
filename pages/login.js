@@ -118,9 +118,10 @@ const Login = () => {
                         </form>
                     </div>
                 </div>
-                <div className="relative overflow-hidden lg:flex lg:w-2/3 ">
+                <div className="relative overflow-hidden lg:flex lg:w-2/3 realtive bg-black ">
                    
-
+                <Image src='/img/bg_pages.svg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
+       
                 </div>
             </div>
         </>

@@ -25,35 +25,19 @@ const Signup = () => {
                                 Lets get Started!
                             </p>
                             <div className="py-2 md:space-x-4 md:flex md:justify-between">
-                                <div className="w-full relative">
-                                    <label
-                                        className="block text-gray-400 text-sm mb-2"
-                                    >
-                                        First Name
-                                    </label>
-                                    <div className="relative">
-                                        <input
-                                            className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
-                                            id="firstName"
-                                            type="text"
-                                            placeholder="Enter your first name"
-                                           {...register("firstName", { required: true, maxLength: 10 })}
-                                        />        
-                                        {errors.firstName && <p className="absolute -bottom-1 text-red-500 text-[12px]">First Name is required</p>}
-                                    </div>
-                                </div>
+                                
                                 <div className="w-full">
                                     <label
                                         className="block text-gray-400 text-sm mb-2"
                                     >
-                                        Last Name
+                                        Username
                                     </label>
                                     <div className="relative">
                                         <input
                                             className="shadow-sm appearance-none border rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-300"
-                                            id="lastName"
+                                            id="userName"
                                             type="text"
-                                            placeholder="Last Name"
+                                            placeholder="Username"
                                             {...register("lastName", { required: true, maxLength: 10 })}
                                             />        
                                             {errors.lastName && <p className="absolute -bottom-1 text-red-500 text-[12px]">Last Name is required</p>}
@@ -157,9 +141,9 @@ const Signup = () => {
                         </form>
                     </div>
                 </div>
-                <div className="relative overflow-hidden lg:flex lg:w-2/3 ">
+                <div className="relative overflow-hidden lg:flex lg:w-2/3 relative">
                     
-
+                         <Image src='/img/bg_pages.svg' alt="bg" layout="fill" objectFit="cover" className="absolute" />  
                 </div>
             </div>
         </>

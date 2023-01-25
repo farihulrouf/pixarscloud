@@ -44,7 +44,7 @@ const NavBar = () => {
                         <ListMenu />
                     </div>
                     <div className="hidden sm:block">
-                        <Button>Become a member</Button>
+                       <Link href='/signup'> <Button>Become a member</Button></Link>
                     </div>
                     <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden block">
                             <span className="sr-only">Open main menu</span>
